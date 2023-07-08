@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Angel</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/angel.jpeg" alt="">
+            </div>
+            <h1>ANGEL ESPINOZA</h1>
+            <h2>ESTUDIANTE DE INGENIERIA INFORMATICA</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=100008352731701"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/angelbladimir__/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--seccion sobre mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Angel Espinoza.</span>Estudiante universitario del septimo semestre en la carrera de
+                ingenieria informatica, un apasionado de la programación que está emocionado por aprender y crecer en la
+                industria de la tecnología. Aunque todavía soy un estudiante, he estado trabajando duro para mejorar mis
+                habilidades en HTML, CSS y JavaScript.
+
+                Aunque todavía no tengo proyectos profesionales en mi portafolio, he trabajado en algunos proyectos
+                personales para poner en práctica lo que he aprendido. Estos proyectos me han permitido mejorar mis
+                habilidades técnicas y desarrollar mi pensamiento lógico y resolución de problemas.</p>
+            <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            12-06-1999
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            (0974) 815 832
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            bladimirgaleano1999@gmail.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Avda. San Jose/Oscar S. Netto, Paraguay
+                        </li>
+                    </ul>
+                </div>
+                <!--intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="ANGELCV.pdf" title="Descargar CV" target="_blank" rel="noopener">
+                Descargar CV
+                <i class="fa-solid fa-download"></i>
+                <span class="visually-hidden">Archivo PDF para descargar</span>
+                <span class="overlay"></span>
+            </a>
+
+        </div>
+    </section>
+    <!--seccion skills-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML5 & CSS3</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3>Profesional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--seccion curriculum-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>ingenieria informatica</h4>
+                        <span class="casa">Universidad Politecnica y Artistica del Paraguay(UPAP)</span>
+                        <span class="fecha">Cursando el septimo semestre</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ciencias Sociales</h4>
+                        <span class="casa">Colegio Nacional San Jose</span>
+                        <span class="fecha">2015-2017</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Redes de Computadoras</h4>
+                        <span class="casa">Servicio Nacional de Promocion Profesional(SNPP)</span>
+                        <span class="fecha">2022</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollo de habilidades genericas</h4>
+                        <span class="casa">Servicio Nacional de Promocion Profesional(SNPP)</span>
+                        <span class="fecha">2017</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Operador de ofimatica</h4>
+                        <span class="casa">Servicio Nacional de Promocion Profesional(SNPP)</span>
+                        <span class="fecha">2022</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--seccion protafolio-->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/gallery4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Cafeteria "El Angel"</h3>
+                        <a href="https://angelbladimi1.github.io/cafeteria/">Enlace aqui</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--seccion contacto-->
+    <section id="contacto" class="contacto">
+        <a href="mailto:bladimirgaleano1999@gmail.com?subject=Hola soy Angel Espinoza">Envíame un correo electrónico</a>
+
+        <div class="col">
+            <div class="info">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Paraguay, Limpio
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        Telef: (0974) 815 832
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        Email: bladimirgaleano1999@gmail.com
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--seccion footer-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=100008352731701"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/angelbladimir__/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
